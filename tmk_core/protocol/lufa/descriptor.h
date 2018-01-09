@@ -155,9 +155,9 @@ typedef struct
 #endif
 
 #ifdef CONSOLE_ENABLE
-#   define CONSOLE_INTERFACE        (RAW_INTERFACE + 1)
+#   define CONSOLE_INTERFACE        (EXTRAKEY_INTERFACE + 1)
 #else
-#   define CONSOLE_INTERFACE        RAW_INTERFACE
+#   define CONSOLE_INTERFACE        EXTRAKEY_INTERFACE
 #endif
 
 #ifdef NKRO_ENABLE

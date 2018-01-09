@@ -441,8 +441,6 @@ void rgblight_set(void) {
 
 #ifdef RGBLIGHT_ANIMATIONS
 
-#ifdef RGBLIGHT_ANIMATIONS
-
 // Animation timer -- AVR Timer3
 void rgblight_timer_init(void) {
   // static uint8_t rgblight_timer_is_init = 0;
